@@ -1,0 +1,36 @@
+C:\Users\sures\OneDrive\Desktop\Python>cd gen-ai-repo
+
+C:\Users\sures\OneDrive\Desktop\Python\gen-ai-repo>cd python_basics
+
+C:\Users\sures\OneDrive\Desktop\Python\gen-ai-repo\Python_Basics>git init
+Reinitialized existing Git repository in C:/Users/sures/OneDrive/Desktop/Python/gen-ai-repo/Python_Basics/.git/
+
+C:\Users\sures\OneDrive\Desktop\Python\gen-ai-repo\Python_Basics>git add .
+
+C:\Users\sures\OneDrive\Desktop\Python\gen-ai-repo\Python_Basics>git remote -v
+origin  https://github.com/sureshdal/GenAI.git (fetch)
+origin  https://github.com/sureshdal/GenAI.git (push)
+
+C:\Users\sures\OneDrive\Desktop\Python\gen-ai-repo\Python_Basics>git branch
+  Basics_py
+  main
+
+C:\Users\sures\OneDrive\Desktop\Python\gen-ai-repo\Python_Basics>git commit -m "code"
+On branch basics_py
+nothing to commit, working tree clean
+
+C:\Users\sures\OneDrive\Desktop\Python\gen-ai-repo\Python_Basics>git push origin basics_py
+fatal: basics_py cannot be resolved to branch
+
+C:\Users\sures\OneDrive\Desktop\Python\gen-ai-repo\Python_Basics>git push origin Basics_py
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (13/13), 5.94 KiB | 760.00 KiB/s, done.
+Total 13 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/sureshdal/GenAI.git
+   6cef258..aa5216a  Basics_py -> Basics_py
+
+C:\Users\sures\OneDrive\Desktop\Python\gen-ai-repo\Python_Basics>
