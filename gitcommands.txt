@@ -22,7 +22,7 @@ nothing to commit, working tree clean
 C:\Users\sures\OneDrive\Desktop\Python\gen-ai-repo\Python_Basics>git push origin basics_py
 fatal: basics_py cannot be resolved to branch
 
-C:\Users\sures\OneDrive\Desktop\Python\gen-ai-repo\Python_Basics>git push origin Basics_py
+C:\Users\sures\OneDrive\Desktop\Python\gen-ai-repo\Python_Basics>git push origin basics_py
 Enumerating objects: 14, done.
 Counting objects: 100% (14/14), done.
 Delta compression using up to 8 threads
